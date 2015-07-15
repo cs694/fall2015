@@ -10,16 +10,16 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a class="navbar-brand pull-left" href="{{ site.url }}/index.html" style="padding-right: 0.5em;"><img src="{{ site.url }}/images/favicon256.png" height="22"/></a>
+      <a class="navbar-brand pull-left" href="{{ site.url }}/index.html" style="padding-right: 0.5em;"><img src="{{ site.github.url }}/images/favicon256.png" height="22"/></a>
 
-      <a class="navbar-brand" href="{{ site.url }}/index.html">{{ site.data.course.id }}</a>
+      <a class="navbar-brand" href="{{ site.github.url }}/index.html">{{ site.data.course.id }}</a>
     </div> <!-- /navbar-header -->
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li {% if page.title == 'Schedule' %}class="active"{% endif %}><a href="{{ site.url }}/schedule.html">Schedule</a></li>
-        <li {% if page.title == 'Papers' %}class="active"{% endif %}><a href="{{ site.url }}/papers.html">Papers</a></li>
-        <li {% if page.title == 'Syllabus' %}class="active"{% endif %}><a href="{{ site.url }}/syllabus.html">Syllabus</a></li>
+        <li {% if page.title == 'Schedule' %}class="active"{% endif %}><a href="{{ site.github.url }}/schedule.html">Schedule</a></li>
+        <li {% if page.title == 'Papers' %}class="active"{% endif %}><a href="{{ site.github.url }}/papers.html">Papers</a></li>
+        <li {% if page.title == 'Syllabus' %}class="active"{% endif %}><a href="{{ site.github.url }}/syllabus.html">Syllabus</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
