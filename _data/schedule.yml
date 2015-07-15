@@ -3,7 +3,7 @@
   info : 'Course Introduction'
   gray : false
   flag : false
-  todo : 'We will go over the <a href="{{ site.url }}/syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. There is nothing due this week.'
+  todo : 'We will go over the <a href="{{ site.github.url }}/syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. There is nothing due this week.'
 
 - week : 2
   date : 2015-09-03
