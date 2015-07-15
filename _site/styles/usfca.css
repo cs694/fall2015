@@ -106,7 +106,14 @@ a.anchor {
     text-decoration: inherit;
 }
 
+.iffy {
+    color: lightgray;
+    opacity: 0.75;
+}
 
+.iffy a {
+    color: inherit;
+}
 
 /* usf official colors */
 
