@@ -1,0 +1,54 @@
+---
+layout: default
+title: Schedule
+---
+
+<h1 class="page-header">{{ page.title }}</h1>
+
+<div class="panel panel-default">
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th>Week</th>
+    <th>Lecture</th>
+    <th>Description</th>
+    <th class="text-center">Turnin</th>
+  </tr>
+</thead>
+
+<tbody>
+{% for row in site.data.schedule %}
+  <tr{% if row.gray %} class="active text-muted"{% endif %}>
+    <td class="text-center nowrap">{{ row.week }}</td>
+    <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
+    <td class="fill">
+      <p><strong>{{ row.info }}</strong></p>
+      {% if row.read %}
+        <ol class="noindent">
+        {% for paper in row.read %}
+            <li><p>{{ paper.authors }}, <strong><a href="{{ paper.doi }}">"{{ paper.title }}"</a></strong>, {{ paper.citation }}. <a href="{{ paper.doi }}"><i class="fa fa-link"></i></a> {% if paper.pdf %} &nbsp; <a href="{{ paper.pdf }}"><i class="fa fa-file-pdf-o"></i></a>{% endif %}</p></li>
+        {% endfor %}
+        </ol>
+      {% endif %}
+      {% if row.todo %}
+      <p>{{ row.todo }}</p>
+      {% endif %}
+    </td>
+    <td class="text-center nowrap">{% if row.link %}<a href="{{ row.link }}" class="btn usf-white-green">Submit <i class="fa fa-cloud-upload"></i></a>{% endif %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+<h2><a name="assignment" class="anchor" href="#assignment"><i class="fa fa-link"></i>Paper Assignments</a></h2>
+
+<p><strong class="text-success">You only need to read one paper each week, even if multiple papers are listed!</strong></p>
+
+<p>To determine which paper to read, calculate take your student ID modulus the total number of papers and add 1:</p>
+
+<pre>(student_id % num_papers) + 1 = paper_index</pre>
+
+<p>For example, suppose your student ID is <code>12345678</code> and there are <code>3</code> papers total. Since <code>12345678 % 3 = 2</code> and <code>2 + 1 = 3</code>, you should read the third paper.</p>
+
+{% include offcampus.html %}

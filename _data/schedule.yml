@@ -1,0 +1,152 @@
+- week : 1
+  date : 2015-08-27
+  info : 'Course Introduction'
+  gray : false
+  flag : false
+  todo : 'We will go over the <a href="{{ site.url }}/syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. There is nothing due this week.'
+
+- week : 2
+  date : 2015-09-03
+  info : 'Reading Academic Research Papers'
+  link : '#'
+  gray : false
+  flag : false
+  read :
+    - title   : 'How to Read a Paper'
+      authors : 'Keshav, S.'
+      citation: 'ACM SIGCOMM Computer Communication Review, Volume 37, Issue 3, July 2007, Pages 83&ndash;84'
+      doi     : 'http://dx.doi.org/10.1145/1273445.1273458'
+
+    - title   : 'Reading a Computer Science Research Paper'
+      authors : 'Fong, Philip W. L.'
+      citation: 'ACM SIGCSE Bulletin, Volume 41, Issue 2, June 2009, Pages 138&ndash;140'
+      doi     : 'http://dx.doi.org/10.1145/1595453.1595493'
+
+    - title   : 'How to Read a Visualization Research Paper: Extracting the Essentials'
+      authors : 'Laramee, Robert S.'
+      citation: 'IEEE Computer Graphics and Applications, Volume 31, Number 3, May/June 2011, Pages 78&ndash;82'
+      doi     : 'http://doi.ieeecomputersociety.org/10.1109/MCG.2011.44'
+
+- week : 3
+  date : 2015-09-10
+  info : 'Introduction to Data Visualization'
+  link : '#'
+  gray : false
+  flag : false
+  read :
+    - title   : 'A Tour Through the Visualization Zoo'
+      authors : 'Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky'
+      citation: 'Communications of the ACM, Volume 53, Issue 6, June 2010, Pages 59&ndash;67'
+      summary : '#'
+      doi     : 'http://dx.doi.org/10.1145/1743546.1743567'
+      week    : '02'
+
+- week : 4
+  date : 2015-09-17
+  info : 'Preattentive Attributes'
+  link : '#'
+  gray : false
+  flag : false
+  read :
+    - title   : 'Preattentive Processing in Vision'
+      authors : 'Treisman, Anne'
+      citation: 'Computer Vision, Graphics, and Image Processing, Volume 31, Issue 2, August 1985, Pages 156&ndash;177'
+      doi     : 'http://dx.doi.org/10.1016/S0734-189X(85)80004-9'
+      pdf     : '#'
+
+    - title   : 'Attention and Visual Memory in Visualization and Computer Graphics'
+      authors : 'Healey, Christopher G. and J.T. Enns'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 7, July 2011, Pages 1170&ndash;1188'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2011.127'
+
+- week : 5
+  date : 2015-09-24
+  info : 'Graphical Perception and Bar Charts'
+  link : '#'
+  gray : false
+  flag : false
+  read :
+    - title   : 'Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods'
+      authors : 'Cleveland, William S. and Robert McGill'
+      citation: 'Journal of the American Statistical Association, Volume 79, Number 387, September 1984, Pages 531&ndash;554'
+      doi     : 'http://dx.doi.org/10.1080/01621459.1984.10478080'
+
+    - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
+      authors : 'Heer, Jeffrey, and Michael Bostock'
+      citation: "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10), 2010, Pages 203&ndash;212"
+      doi     : 'http://dx.doi.org/10.1145/1753326.1753357'
+
+    - title   : 'Four Experiments on the Perception of Bar Charts'
+      authors : 'Talbot, Justin, Vidya Setlur, and Anushka Anand'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2152&ndash;2160'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
+
+- week : 6
+  date : 2015-10-01
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 7
+  date : 2015-10-08
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 8
+  date : 2015-10-15
+  info : 'Cybersecurity Panel Recap'
+  gray : false
+  flag : true
+  todo : 'Attend the <strong>Cybersecurity Panel</strong> on Wed 10/14 (<a href="#">details</a>) and submit a summary of the panel. If you have a class conflict or are otherwise unable to make it, submit a biography for each of the panelists instead.'
+
+- week : 9
+  date : 2015-10-22
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 10
+  date : 2015-10-29
+  info : 'Career Services Presentation'
+  gray : false
+  flag : true
+  todo : 'Career Services will be giving a special presentation during class. Attendance is mandatory. Details will be posted later.'
+
+- week : 11
+  date : 2015-11-05
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 12
+  date : 2015-11-12
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 13
+  date : 2015-11-19
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 14
+  date : 2015-11-26
+  info : 'No Class &bull; Thanksgiving Break'
+  gray : true
+  flag : true
+  todo : 'There are no assignments due this week. Enjoy your break!'
+
+- week : 15
+  date : 2015-12-03
+  info : '&nbsp;'
+  gray : false
+  flag : false
+
+- week : 16
+  date : 2015-12-10
+  info : 'No Class &bull; End of Semester'
+  gray : true
+  flag : true
+  todo : 'Students are encouraged to attend our annual CS Night celebration on Thursday, December 10, 2015. <em>This is optional&mdash;attendance is not required for this course.</em>'

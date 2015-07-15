@@ -1,0 +1,34 @@
+id: CS 384/694
+section: '01'
+title: Research Seminar in Computer Science
+term: Fall
+year: 2015
+canvas: https://usfca.instructure.com/courses/1555423
+topic: data visualization
+credits: 1
+lectures:
+    days: Thu
+    start: 2:40pm
+    end: 3:55pm
+    building: Lo Schiavo
+    room: 307
+    url: http://www.usfca.edu/virtualtour/loschiavo/
+instructor:
+    name: Sophie Engle
+    email: sjengle@cs.usfca.edu
+    url: http://sjengle.cs.usfca.edu
+office:
+    days: Mon, Thu
+    start: 1:00pm
+    end: 2:30pm
+    building: Harney
+    room: 531/532
+    url: http://www.usfca.edu/virtualtour/harney/
+description: 'In this course, students will explore research topics in Computer Science. Students will read academic papers, independently learn tools and technologies related to the area, present research findings, lead tutorials on relevant tools, and participate in group discussion.'
+prerequisites: 'There are no prerequisites for this class. It is open to all undergraduate and graduate Computer Science students.'
+materials: 'There are no required books or materials for this class. However, students are encouraged to bring laptops to class if they have them.'
+outcomes:
+  - Understand how to read academic papers in Computer Science.
+  - Prepare and deliver a presentation demonstrating understanding of a paper, new tool, or piece of technology.
+  - Analyze results and shortcomings of others' work in group discussion.
+

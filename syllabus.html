@@ -1,0 +1,176 @@
+---
+layout: default
+title: Syllabus
+---
+
+<h1 class="page-header">{{ page.title }}</h1>
+
+<h2>{{ site.data.course.title }}<br/> <small>{{ site.data.course.id }} &bull; {{ site.data.course.term }} {{ site.data.course.year }} &bull; {{ site.data.course.credits }} Credits</small></h2>
+
+<p class="lead">{{ site.data.course.description }}</p>
+
+<p>The research topic for {{ site.data.course.term }} {{ site.data.course.year }} will be <strong>{{ site.data.course.topic }}</strong>. Topics include, but are not limited to: techniques, perception, evaluation, design, and interaction. The course may also cover other research-related topics such as how to read an academic paper, how to prepare a curriculum vitae, and how to be successful as a student researcher.</p>
+
+<h2 class="page-header">Course Details</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+    <table class="table table-hover">
+    <tbody>
+      <tr>
+        <th>Course:</th>
+        <td class="fill">{{ site.data.course.id }}-{{ site.data.course.section }} ({{ site.data.course.credits }} Credits)</td>
+      </tr>
+
+      <tr>
+        <th>Term:</th>
+        <td class="fill">{{ site.data.course.term }} {{ site.data.course.year }}</td>
+      </tr>
+
+      <tr>
+        <th>When:</th>
+        <td class="fill">{{ site.data.course.lectures.days }} &bull; {{ site.data.course.lectures.start }} &ndash; {{ site.data.course.lectures.end }}</td>
+      </tr>
+
+      <tr>
+        <th>Where:</th>
+        <td class="fill"><a href="{{ site.data.course.lectures.url }}">{{ site.data.course.lectures.building }}</a>, Room {{ site.data.course.lectures.room }}</td>
+      </tr>
+    </tbody>
+    </table>
+    </div> <!-- /panel -->
+  </div> <!-- /col-md-6 -->
+
+  <div class="col-md-6">
+    <div class="panel panel-default">
+    <table class="table table-hover">
+    <tbody>
+      <tr>
+        <th>Instructor:</th>
+        <td class="fill"><a href="{{ site.data.course.instructor.url }}">{{ site.data.course.instructor.name }}</a></td>
+      </tr>
+
+      <tr>
+        <th>Email:</th>
+        <td class="fill"><a href="mailto:{{ site.data.course.instructor.email }}">{{ site.data.course.instructor.email }}</a></td>
+      </tr>
+
+      <tr>
+        <th>Hours:</th>
+        <td class="fill">{{ site.data.course.office.days }} &bull; {{ site.data.course.office.start }} &ndash; {{ site.data.course.office.end }}</td>
+      </tr>
+
+      <tr>
+        <th>Office:</th>
+        <td class="fill"><a href="{{ site.data.course.office.url }}">{{ site.data.course.office.building }}</a>, Room {{ site.data.course.office.room }}</td>
+      </tr>
+    </tbody>
+    </table>
+    </div>
+  </div>
+</div> <!-- /row -->
+
+<h3>Prerequisites</h3>
+
+<p>{{ site.data.course.prerequisites }}</p>
+
+<h3>Required Materials</h3>
+
+<p>{{ site.data.course.materials }}</p>
+
+<h3>Learning Outcomes</h3>
+
+<p>At the end of this course, students should be able to:</p>
+
+<ul>
+{% for outcome in site.data.course.outcomes %}
+  <li><p>{{ outcome }}</p></li>
+{% endfor %}
+</ul>
+
+<h2 class="page-header">Course Requirements</h2>
+
+<p>Students are expected to attend class every week, complete participation exercises and actively participate in discussion, and deliver at least one presentation or lead one discussion during the semester.</p>
+
+<h3>Time Requirements</h3>
+
+<p>This is a {{ site.data.course.credits }} credit course. Lectures will be approximately 50 to 75 minutes long, and will primarily consist of instructor-lead discussions on one or more papers related to the research topic. Students should spend approximately 2 hours per week outside of class reading papers, preparing paper summaries, or preparing presentations.</p>
+
+<h3>Letter Grades</h3>
+
+<p>Undergraduate students enrolled in CS 384 will receive a P (Passing) or F (Failing) letter grade. Graduate students enrolled in CS 694 will receive an A, B, C, or F letter grade. The breakdown is as follows:</p>
+
+<div class="panel panel-default">
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th class="nowrap">CS 384</th>
+    <th class="nowrap">CS 694</th>
+    <th class="fill">Requirements</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td>P</td>
+    <td>A (4.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Must meet the requirements of a B letter grade, <em>and...</em>.</li>
+        <li>Must deliver at least one presentation or lead one discussion.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <td>P</td>
+    <td>B (3.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Must meet the requirements of a C letter grade, <em>and...</em>.</li>
+        <li>Must <u>actively</u> participate in class discussions.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <td>P</td>
+    <td>C (2.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Must not have more than 1 unexcused absence, <em>and...</em></li>
+        <li>Must not have more than 1 incomplete participation assignments.</li>
+      </ul>
+    </td>
+  </tr>
+
+  <td>F</td>
+    <td>F (0.0)</td>
+    <td>
+      <ul class="noindent">
+        <li>Fail to meet the above requirements.</li>
+      </ul>
+    </td>
+  </tr>
+</tbody>
+
+</table>
+</div>
+
+<p class="small text-muted">Please note that +/&ndash; letter grades will not be assigned, and graduate students may not receive a D letter grade (in any class).</p>
+
+<h3>Attendance Requirements</h3>
+
+<p>Students are expected to attend all lectures and arrive on-time. Students that exceed more than 2 unexcused absences throughout the semester will fail the course.</p>
+
+<h3>Participation Requirements</h3>
+
+<p>Students are expected to actively participate in class discussions. To help facilitate these discussions, students must read one paper per week and prepare a brief summary describing that paper. These assignments are due before the start of class each week.</p>
+
+<h3>Presentation Requirements</h3>
+
+<p>To receive an A letter grade, graduate students must prepare at least one 30 minute presentation on a paper, tool, or technology related to {{ site.data.course.topic }}, or lead at least one of the scheduled 60 minute paper discussions. Students that wish to complete this requirement must consult with the instructor to have a topic and date approved.</p>
+
+<p>Undergraduate students are also welcome to complete this requirement to make up missed lectures or incomplete assignments.</p>
+
+{% include policies.html %}
+{% include resources.html %}

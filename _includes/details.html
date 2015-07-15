@@ -1,0 +1,50 @@
+{% capture lecturedate %}{{ site.data.course.lectures.days }} &bull; {{ site.data.course.lectures.start }} &ndash; {{ site.data.course.lectures.end }}{% endcapture %}
+
+{% capture lectureroom %}{{ site.data.course.lectures.building }} {{ site.data.course.lectures.room }}{% endcapture %}
+
+{% capture officehours %}{{ site.data.course.office.days }} &bull; {{ site.data.course.office.start }} &ndash; {{ site.data.course.office.end }}{% endcapture %}
+
+{% capture officeroom %}{{ site.data.course.office.building }} {{ site.data.course.office.room }}{% endcapture %}
+
+<!-- course details -->
+<div class="row">
+  <div class="col-md-4">
+
+    <h2>Lectures</h2>
+
+    <div class="list-group">
+      <!-- lecture date/time -->
+      {% include item.html icon="fa-calendar" href="#" body=lecturedate %}
+
+      <!-- lecture location -->
+      {% include item.html icon="fa-university" href=site.data.course.lectures.url body=lectureroom %}
+    </div> <!-- /list-group -->
+  </div> <!-- /col-md-4 -->
+
+  <div class="col-md-4">
+
+    <h2>Office Hours</h2>
+
+    <div class="list-group">
+      <!-- office hours -->
+      {% include item.html icon="fa-calendar" href="#" body=officehours %}
+
+      <!-- office location -->
+      {% include item.html icon="fa-university" href=site.data.course.office.url body=officeroom %}
+    </div> <!-- /list-group -->
+  </div> <!-- /col-md-4 -->
+
+  <div class="col-md-4">
+
+    <h2>Links</h2>
+
+    <div class="list-group">
+      <!-- canvas link -->
+      {% include item.html icon="fa-cloud-upload" href=site.data.course.canvas body="Submission Website" %}
+
+      <!-- github link -->
+      {% include item.html icon="fa-github-alt" href=site.github.repository_url body="Github Repository" %}
+    </div> <!-- /list-group -->
+  </div> <!-- /col-md-4 -->
+
+</div> <!-- /row -->
