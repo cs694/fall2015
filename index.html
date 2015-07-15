@@ -22,7 +22,7 @@ title: Home
   <tr{% if row.gray %} class="active text-muted"{% endif %}>
     <td class="text-center nowrap">{{ row.week }}</td>
     <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
-    <td class="fill">{{ row.info }}</td>
+    <td class="fill{% if row.iffy %} iffy{% endif %}">{{ row.info }}</td>
   </tr>
 {% endfor %}
 </tbody>

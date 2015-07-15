@@ -21,17 +21,17 @@ title: Schedule
   <tr{% if row.gray %} class="active text-muted"{% endif %}>
     <td class="text-center nowrap">{{ row.week }}</td>
     <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
-    <td class="fill">
+    <td class="fill{% if row.iffy %} iffy{% endif %}">
       <p><strong>{{ row.info }}</strong></p>
+      {% if row.todo %}
+      <p>{{ row.todo }}</p>
+      {% endif %}
       {% if row.read %}
         <ol class="noindent">
         {% for paper in row.read %}
-            <li><p>{{ paper.authors }}, <strong><a href="{{ paper.doi }}">"{{ paper.title }}"</a></strong>, {{ paper.citation }}. <a href="{{ paper.doi }}"><i class="fa fa-link"></i></a> {% if paper.pdf %} &nbsp; <a href="{{ paper.pdf }}"><i class="fa fa-file-pdf-o"></i></a>{% endif %}</p></li>
+            <li><p>{{ paper.authors }}, <strong><a href="{{ paper.doi }}">"{{ paper.title }}"</a></strong>, {{ paper.citation }}. <a href="{{ paper.doi }}"><i class="fa fa-link"></i></a> {% if paper.pdf %} &nbsp; <a href="{{ paper.pdf }}"><i class="fa fa-file-pdf-o"></i></a>{% endif %} {% if paper.vid %} &nbsp; <a href="{{ paper.vid }}"><i class="fa fa-film"></i></a>{% endif %}</p></li>
         {% endfor %}
         </ol>
-      {% endif %}
-      {% if row.todo %}
-      <p>{{ row.todo }}</p>
       {% endif %}
     </td>
     <td class="text-center nowrap">{% if row.link %}<a href="{{ row.link }}" class="btn usf-white-green">Submit <i class="fa fa-cloud-upload"></i></a>{% endif %}</td>
