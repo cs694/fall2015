@@ -1,8 +1,6 @@
-{% capture lecturedate %}{{ site.data.course.lectures.days }} &bull; {{ site.data.course.lectures.start }} &ndash; {{ site.data.course.lectures.end }}{% endcapture %}
-
 {% capture lectureroom %}{{ site.data.course.lectures.building }} {{ site.data.course.lectures.room }}{% endcapture %}
 
-{% capture officehours %}{{ site.data.course.office.days }} &bull; {{ site.data.course.office.start }} &ndash; {{ site.data.course.office.end }}{% endcapture %}
+{% capture officehours %}{{ site.data.course.office.hours | join: ', ' }}{% endcapture %}
 
 {% capture officeroom %}{{ site.data.course.office.building }} {{ site.data.course.office.room }}{% endcapture %}
 
@@ -14,7 +12,7 @@
 
     <div class="list-group">
       <!-- lecture date/time -->
-      {% include item.html icon="fa-calendar" href="#" body=lecturedate %}
+      {% include item.html icon="fa-calendar" href="#" body=site.data.course.lectures.when %}
 
       <!-- lecture location -->
       {% include item.html icon="fa-university" href=site.data.course.lectures.url body=lectureroom %}
@@ -27,7 +25,7 @@
 
     <div class="list-group">
       <!-- office hours -->
-      {% include item.html icon="fa-calendar" href="#" body=officehours %}
+      {% include item.html icon="fa-calendar" href="#" body=site.data.course.office.short %}
 
       <!-- office location -->
       {% include item.html icon="fa-university" href=site.data.course.office.url body=officeroom %}
