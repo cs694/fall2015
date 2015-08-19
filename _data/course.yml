@@ -19,7 +19,7 @@ office:
     hours:
         - 'Mondays 5:00pm to 6:30pm'
         - 'Thursdays 1:00pm to 2:30pm'
-    short: 'Mon 5&ndash;6pm, Thu 1&ndash;2:30pm'
+    short: 'Mon 5&ndash;6:30pm, Thu 1&ndash;2:30pm'
     building: Harney Science Center
     room: 531/532
     url: https://www.usfca.edu/virtual-tour/main-campus/harney-science
