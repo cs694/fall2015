@@ -5,7 +5,7 @@ title: Syllabus
 
 <h1 class="page-header">{{ page.title }}</h1>
 
-<h2>{{ site.data.course.title }}<br/> <small>{{ site.data.course.id }} &bull; {{ site.data.course.term }} {{ site.data.course.year }} &bull; {{ site.data.course.credits }} Credits</small></h2>
+<h2>{{ site.data.course.title }}<br/> <small>{{ site.data.course.id }}-{{ site.data.course.section }} &bull; {{ site.data.course.term }} {{ site.data.course.year }} &bull; {{ site.data.course.credits }} Credits</small></h2>
 
 <p class="lead">{{ site.data.course.description }}</p>
 
@@ -13,63 +13,29 @@ title: Syllabus
 
 <h2 class="page-header">Course Details</h2>
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="panel panel-default">
-    <table class="table table-hover">
-    <tbody>
-      <tr>
-        <th>Course:</th>
-        <td class="fill">{{ site.data.course.id }}-{{ site.data.course.section }} ({{ site.data.course.credits }} Credits)</td>
-      </tr>
+<h3>Lectures</h3>
 
-      <tr>
-        <th>Term:</th>
-        <td class="fill">{{ site.data.course.term }} {{ site.data.course.year }}</td>
-      </tr>
+<p>
+  {{ site.data.course.lectures.when }}<br/>
+  <a href="{{ site.data.course.lectures.url }}">{{ site.data.course.lectures.building }}</a>, Room {{ site.data.course.lectures.room }}
+</p>
 
-      <tr>
-        <th>When:</th>
-        <td class="fill">{{ site.data.course.lectures.days }} &bull; {{ site.data.course.lectures.start }} &ndash; {{ site.data.course.lectures.end }}</td>
-      </tr>
+<h3>Instructor</h3>
 
-      <tr>
-        <th>Where:</th>
-        <td class="fill"><a href="{{ site.data.course.lectures.url }}">{{ site.data.course.lectures.building }}</a>, Room {{ site.data.course.lectures.room }}</td>
-      </tr>
-    </tbody>
-    </table>
-    </div> <!-- /panel -->
-  </div> <!-- /col-md-6 -->
+<p>
+  <strong>
+    <a href="{{ site.data.course.instructor.url }}">{{ site.data.course.instructor.name }}</a>
+  </strong><br/>
+  <a href="mailto:{{ site.data.course.instructor.email }}">{{ site.data.course.instructor.email }}</a>
+  &bull;
+  <a href="{{ site.data.course.office.url }}">{{ site.data.course.office.building }}</a>, Room {{ site.data.course.office.room }}
+</p>
 
-  <div class="col-md-6">
-    <div class="panel panel-default">
-    <table class="table table-hover">
-    <tbody>
-      <tr>
-        <th>Instructor:</th>
-        <td class="fill"><a href="{{ site.data.course.instructor.url }}">{{ site.data.course.instructor.name }}</a></td>
-      </tr>
-
-      <tr>
-        <th>Email:</th>
-        <td class="fill"><a href="mailto:{{ site.data.course.instructor.email }}">{{ site.data.course.instructor.email }}</a></td>
-      </tr>
-
-      <tr>
-        <th>Hours:</th>
-        <td class="fill">{{ site.data.course.office.days }} &bull; {{ site.data.course.office.start }} &ndash; {{ site.data.course.office.end }}</td>
-      </tr>
-
-      <tr>
-        <th>Office:</th>
-        <td class="fill"><a href="{{ site.data.course.office.url }}">{{ site.data.course.office.building }}</a>, Room {{ site.data.course.office.room }}</td>
-      </tr>
-    </tbody>
-    </table>
-    </div>
-  </div>
-</div> <!-- /row -->
+<p>
+  <strong>Office Hours:</strong><br/>
+  {{ site.data.course.office.hours | join: ', ' }}<br/>
+  <em>and by appointment</em></li>
+</p>
 
 <h3>Prerequisites</h3>
 
