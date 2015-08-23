@@ -101,21 +101,22 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290673'
   gray : false
   flag : false
-  read :
-    - title   : 'Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods'
-      authors : 'Cleveland, William S. and Robert McGill'
-      citation: 'Journal of the American Statistical Association, Volume 79, Number 387, September 1984, Pages 531&ndash;554'
-      doi     : 'http://dx.doi.org/10.1080/01621459.1984.10478080'
+  iffy : true
+  # read :
+  #   - title   : 'Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods'
+  #     authors : 'Cleveland, William S. and Robert McGill'
+  #     citation: 'Journal of the American Statistical Association, Volume 79, Number 387, September 1984, Pages 531&ndash;554'
+  #     doi     : 'http://dx.doi.org/10.1080/01621459.1984.10478080'
 
-    - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
-      authors : 'Heer, Jeffrey, and Michael Bostock'
-      citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2010, Pages 203&ndash;212'
-      doi     : 'http://dx.doi.org/10.1145/1753326.1753357'
+  #   - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
+  #     authors : 'Heer, Jeffrey, and Michael Bostock'
+  #     citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2010, Pages 203&ndash;212'
+  #     doi     : 'http://dx.doi.org/10.1145/1753326.1753357'
 
-    - title   : 'Four Experiments on the Perception of Bar Charts'
-      authors : 'Talbot, Justin, Vidya Setlur, and Anushka Anand'
-      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2152&ndash;2160'
-      doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
+  #   - title   : 'Four Experiments on the Perception of Bar Charts'
+  #     authors : 'Talbot, Justin, Vidya Setlur, and Anushka Anand'
+  #     citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2152&ndash;2160'
+  #     doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
 
 - week : 6
   date : 2015-10-01
@@ -123,16 +124,16 @@
   gray : false
   flag : false
   iffy : true
-  read :
-    - title   : 'ISOTYPE Visualization: Working Memory, Performance, and Engagement with Pictographs'
-      authors : 'Haroz, Steve, Robert Kosara, and Steven L. Franconeri'
-      citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2015, Pages 1191&ndash;1200'
-      doi     : 'http://dx.doi.org/10.1145/2702123.2702275'
+  # read :
+  #   - title   : 'ISOTYPE Visualization: Working Memory, Performance, and Engagement with Pictographs'
+  #     authors : 'Haroz, Steve, Robert Kosara, and Steven L. Franconeri'
+  #     citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2015, Pages 1191&ndash;1200'
+  #     doi     : 'http://dx.doi.org/10.1145/2702123.2702275'
 
-    - title   : 'An Evaluation of the Impact of Visual Embellishments in Bar Charts'
-      authors : 'Skau, Drew, Lane Harrison, and Robert Kosara'
-      citation: 'Eurographics Conference on Visualization (EuroVis), Computer Graphics Forum, Volume 34, Number 3, 2015.'
-      doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
+  #   - title   : 'An Evaluation of the Impact of Visual Embellishments in Bar Charts'
+  #     authors : 'Skau, Drew, Lane Harrison, and Robert Kosara'
+  #     citation: 'Eurographics Conference on Visualization (EuroVis), Computer Graphics Forum, Volume 34, Number 3, 2015.'
+  #     doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
 
 
 - week : 7
