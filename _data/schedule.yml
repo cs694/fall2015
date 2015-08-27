@@ -3,7 +3,7 @@
   info : 'Course Introduction'
   gray : false
   flag : false
-  todo : 'We will go over the <a href="{{ site.github.url }}/syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. Time permitting, we will also watch some TED videos. There is nothing due this week.'
+  todo : 'We will go over the <a href="syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. Time permitting, we will also watch some TED videos. There is nothing due this week.'
   read :
     - title   : "The Best Stats You've Ever Seen"
       authors : 'Rosling, Hans'
