@@ -83,6 +83,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290672'
   gray : false
   flag : false
+  todo : 'If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.'
   read :
     - title   : 'Preattentive Processing in Vision'
       authors : 'Treisman, Anne'
