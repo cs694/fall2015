@@ -148,13 +148,16 @@
   info : 'Cybersecurity Panel Recap'
   gray : false
   flag : true
-  todo : 'Attend the <strong>Cybersecurity Panel</strong> on Wed 10/14 (<a href="#">details</a>) and submit a summary of the panel. If you have a class conflict or are otherwise unable to make it, submit a biography for each of the panelists instead.'
+  iffy : true
+  todo : '<p>Attend the <strong>Cybersecurity Panel</strong> on Wed 10/14 (<a href="#">details</a>) and submit a summary of the panel. If you have a class conflict or are otherwise unable to make it, submit a biography for each of the panelists instead.</p><p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake (topic TBA).</p>'
 
 - week : 9
   date : 2015-10-22
-  info : '&nbsp;'
+  info : 'Topic Pending'
   gray : false
   flag : false
+  iffy : true
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut (topic TBA).</p>'
 
 - week : 10
   date : 2015-10-29
