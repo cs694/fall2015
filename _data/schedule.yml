@@ -139,9 +139,10 @@
 
 - week : 7
   date : 2015-10-08
-  info : '&nbsp;'
+  info : 'Graph Visualization'
   gray : false
   flag : false
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat (topic TBA).</p>'
 
 - week : 8
   date : 2015-10-15
