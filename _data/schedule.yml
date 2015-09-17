@@ -103,21 +103,22 @@
   gray : false
   flag : false
   iffy : true
-  # read :
+  todo : 'If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.'
+  read :
   #   - title   : 'Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods'
   #     authors : 'Cleveland, William S. and Robert McGill'
   #     citation: 'Journal of the American Statistical Association, Volume 79, Number 387, September 1984, Pages 531&ndash;554'
   #     doi     : 'http://dx.doi.org/10.1080/01621459.1984.10478080'
 
-  #   - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
-  #     authors : 'Heer, Jeffrey, and Michael Bostock'
-  #     citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2010, Pages 203&ndash;212'
-  #     doi     : 'http://dx.doi.org/10.1145/1753326.1753357'
+    - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
+      authors : 'Heer, Jeffrey, and Michael Bostock'
+      citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2010, Pages 203&ndash;212'
+      doi     : 'http://dx.doi.org/10.1145/1753326.1753357'
 
-  #   - title   : 'Four Experiments on the Perception of Bar Charts'
-  #     authors : 'Talbot, Justin, Vidya Setlur, and Anushka Anand'
-  #     citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2152&ndash;2160'
-  #     doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
+    - title   : 'Four Experiments on the Perception of Bar Charts'
+      authors : 'Talbot, Justin, Vidya Setlur, and Anushka Anand'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2152&ndash;2160'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
 
 - week : 6
   date : 2015-10-01
@@ -146,7 +147,7 @@
 
 - week : 8
   date : 2015-10-15
-  info : 'Cybersecurity Panel Recap'
+  info : 'Cybersecurity'
   gray : false
   flag : true
   iffy : true
