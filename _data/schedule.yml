@@ -142,7 +142,7 @@
   info : 'Graph Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat (topic TBA).</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat on graph/network visualization.</p>'
 
 - week : 8
   date : 2015-10-15
@@ -150,7 +150,7 @@
   gray : false
   flag : true
   iffy : true
-  todo : '<p>Attend the <strong>Cybersecurity Panel</strong> on Wed 10/14 (<a href="#">details</a>) and submit a summary of the panel. If you have a class conflict or are otherwise unable to make it, submit a biography for each of the panelists instead.</p><p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake (topic TBA).</p>'
+  todo : '<p>Attend the <strong>USF Symposium on Cybersecurity</strong> on Wed 10/14 (<a href="http://alumni.usfca.edu/controls/email_marketing/admin/email_marketing_email_viewer.aspx?sid=1307&gid=1&eiid=11815&seiid=7686&usearchive=1&puid=b0635dbe-1be3-4838-8447-48c6ae2a3777">details</a>) and submit a summary of the panel. If you have a class conflict or are otherwise unable to make it, submit a biography for each of the panelists instead.</p><p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on cybersecurity visualization.</p>'
 
 - week : 9
   date : 2015-10-22
@@ -179,6 +179,7 @@
   info : '&nbsp;'
   gray : false
   flag : false
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan (topic TBA).</p>'
 
 - week : 13
   date : 2015-11-19
