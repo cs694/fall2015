@@ -169,7 +169,7 @@
 
 - week : 11
   date : 2015-11-05
-  info : '&nbsp;'
+  info : 'Personal Visualization'
   gray : false
   flag : false
   todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Simon (topic TBA).</p>'
@@ -183,9 +183,10 @@
 
 - week : 13
   date : 2015-11-19
-  info : '&nbsp;'
+  info : 'Big Data Visualization'
   gray : false
   flag : false
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Maynak on big data visualization.</p>'
 
 - week : 14
   date : 2015-11-26
