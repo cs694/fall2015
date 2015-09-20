@@ -158,7 +158,7 @@
   gray : false
   flag : false
   iffy : true
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut (topic TBA).</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut on educational technology and visualization.</p>'
 
 - week : 10
   date : 2015-10-29
@@ -172,14 +172,14 @@
   info : 'Personal Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Simon (topic TBA).</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Simon on visualization of personal data and its affect in daily life.</p>'
 
 - week : 12
   date : 2015-11-12
   info : '&nbsp;'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan (topic TBA).</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan on color and map visualization.</p>'
 
 - week : 13
   date : 2015-11-19
