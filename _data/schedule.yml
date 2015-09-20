@@ -200,6 +200,7 @@
   info : '&nbsp;'
   gray : false
   flag : false
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Akhila on visualization and advertising.</p>'
 
 - week : 16
   date : 2015-12-10
