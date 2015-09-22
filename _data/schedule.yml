@@ -154,11 +154,20 @@
 
 - week : 9
   date : 2015-10-22
-  info : 'Topic Pending'
+  info : 'Ambient Visualization and Urban Displays'
   gray : false
   flag : false
-  iffy : true
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut on educational technology and visualization.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut on "<strong><a href="http://dx.doi.org/10.1016/j.ijhcs.2015.02.005">Public Visualization Displays of Citizen Data: Design, Impact, and Implications</a></strong>" by Nina Valkanova, Sergi Jorda, and Andrew Vande Moere published in the <em>International Journal of Human-Computer Studies</em>, Volume 81, September 2015, pages 4&ndash;16.</p><p><strong>Assigned Reading:</strong> If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.</p>'
+  read :
+    - title   : 'The DeepTree Exhibit: Visualizing the Tree of Life to Facilitate Informal Learning'
+      authors : 'Block, Florian, Michael Horn, Brenda Caldwell Phillips, Judy Diamond, Margaret Evans, and Chia Shen'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2789&ndash;2798'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2012.244'
+    - title   : 'Living Liquid: Design and Evaluation of an Exploratory Visualization Tool for Museum Visitors'
+      authors : 'Ma, Joyce, Isaac Liao, Kwan-Liu Ma, and Jennifer Frazier'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2799&ndash;2808'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2012.244'
+
 
 - week : 10
   date : 2015-10-29
