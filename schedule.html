@@ -18,10 +18,10 @@ title: Schedule
 
 <tbody>
 {% for row in site.data.schedule %}
-  <tr{% if row.gray %} class="active text-muted"{% endif %}>
+  <tr{% if row.gray %} class="active text-muted" {% elsif row.iffy %} class="iffy"{% endif %}>
     <td class="text-center nowrap">{{ row.week }}</td>
     <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
-    <td class="fill{% if row.iffy %} iffy{% endif %}">
+    <td class="fill">
       <p><strong>{{ row.info }}</strong></p>
       {% if row.todo %}
       <p>{{ row.todo }}</p>
@@ -34,7 +34,7 @@ title: Schedule
         </ol>
       {% endif %}
     </td>
-    <td class="text-center nowrap">{% if row.link %}<a href="{{ row.link }}" class="btn usf-white-green">Submit <i class="fa fa-cloud-upload"></i></a>{% endif %}</td>
+    <td class="text-center nowrap">{% if row.link %}<a href="{{ row.link }}" class="btn {% if row.iffy %}btn-default{% else %}usf-white-green{% endif %}">Submit <i class="fa fa-cloud-upload"></i></a>{% endif %}</td>
   </tr>
 {% endfor %}
 </tbody>

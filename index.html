@@ -5,7 +5,7 @@ title: Home
 
 <p class="alert alert-info">
 <span class="label label-info">NEW</span>
-Students are encouraged to attend the <strong><a href="http://alumni.usfca.edu/controls/email_marketing/admin/email_marketing_email_viewer.aspx?sid=1307&gid=1&eiid=11815&seiid=7686&usearchive=1&puid=b0635dbe-1be3-4838-8447-48c6ae2a3777">USF Symposium on Cyber Security</a></strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm. <a href="http://alumni.usfca.edu/controls/email_marketing/admin/email_marketing_email_viewer.aspx?sid=1307&gid=1&eiid=11815&seiid=7686&usearchive=1&puid=b0635dbe-1be3-4838-8447-48c6ae2a3777">Click here for details and to RSVP.</a>
+Students are encouraged to attend the <strong>USF Symposium on Cyber Security</strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm. <a href="http://sjengle.cs.usfca.edu/2015/09/22/cybersecurity-symposium.html">Click here for details and to RSVP.</a>
 </p>
 
 {% include details.html %}
@@ -24,10 +24,10 @@ Students are encouraged to attend the <strong><a href="http://alumni.usfca.edu/c
 
 <tbody>
 {% for row in site.data.schedule %}
-  <tr{% if row.gray %} class="active text-muted"{% endif %}>
+  <tr{% if row.gray %} class="active text-muted"{% elsif row.iffy %} class="iffy"{% endif %}>
     <td class="text-center nowrap">{{ row.week }}</td>
     <td class="nowrap">{{ row.date | date: "%m/%d" }}{% if row.flag %} <i class="fa fa-star"></i>{% endif %}</td>
-    <td class="fill{% if row.iffy %} iffy{% endif %}">{{ row.info }}</td>
+    <td class="fill">{{ row.info }}</td>
   </tr>
 {% endfor %}
 </tbody>
