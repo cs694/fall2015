@@ -19,7 +19,7 @@
   info : 'Course Introduction'
   iffy : true
   flag : false
-  todo : 'We will go over the <a href="syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. Time permitting, we will also watch some TED videos. There is nothing due this week.'
+  todo : '<p>We will go over the <a href="syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. Time permitting, we will also watch some TED videos. There is nothing due this week.</p>'
   read :
     - title   : "The Best Stats You've Ever Seen"
       authors : 'Rosling, Hans'
@@ -63,6 +63,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290670'
   iffy : true
   flag : false
+  todo : '<p><strong>Assigned Reading:</strong> Use your student ID to determine which paper to read (take your ID mod 3 and add 1).</p>'
   read :
     - title   : 'How to Read a Paper'
       authors : 'Keshav, S.'
@@ -85,6 +86,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290671'
   iffy : true
   flag : false
+  todo : '<p><strong>Assigned Reading:</strong> Everyone should read the following paper.</p>'
   read :
     - title   : 'A Tour Through the Visualization Zoo'
       authors : 'Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky'
@@ -98,7 +100,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290672'
   iffy : true
   flag : false
-  todo : 'If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.'
+  todo : '<p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
     - title   : 'Preattentive Processing in Vision'
       authors : 'Treisman, Anne'
@@ -117,7 +119,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290673'
   gray : false
   flag : false
-  todo : 'If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.'
+  todo : '<p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
     - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
       authors : 'Heer, Jeffrey, and Michael Bostock'
@@ -135,7 +137,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290674'
   gray : false
   flag : false
-  todo : 'If you were born in January through April, please read the first paper. If you were born in May through August, please read the second paper. If you were born September through December, please read the third paper.'
+  todo : '<p><strong>Assigned Reading:</strong> If you were born in January through April, please read the <strong>THIRD</strong> paper. If you were born in May through August, please read the <strong>FIRST</strong> paper. If you were born September through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
     - title   : 'Evaluation of Traditional, Orthogonal, and Radial Tree Diagrams by an Eye Tracking Study'
       authors : 'Burch, Michael, Natalia Konevtsova, Julian Heinrich, Markus Hoferlin, and Daniel Weiskopf'
@@ -157,9 +159,20 @@
 - week : 7
   date : 2015-10-08
   info : 'Graph Visualization'
+  link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290675'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat on graph/network visualization.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat on graph/network visualization.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
+  read :
+    - title   : 'Divided Edge Bundling for Directional Network Data'
+      authors : 'Selassie, David, Brandon Heller and Jeffrey Heer'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 17, Issue 12, December 2011, Pages 2354&ndash;2363'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2011.190'
+
+    - title   : 'Edge Compression Techniques for Visualization of Dense Directed Graphs'
+      authors : 'Dwyer, Tim, Nathalie Henry Riche, Kim Marriott, Christopher Mears'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 19, Issue 12, December 2013, Pages 2596&ndash;2605'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2013.151'
 
 - week : 8
   date : 2015-10-15
@@ -167,19 +180,20 @@
   gray : false
   flag : true
   iffy : false
-  todo : '<p class="alert alert-info">Students are encouraged to attend the <strong>USF Symposium on Cyber Security</strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm.</p> <p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on cybersecurity visualization.</p>'
+  todo : '<p class="alert alert-info">Students are encouraged to attend the <strong>USF Symposium on Cyber Security</strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm.</p> <p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on cybersecurity visualization.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>SECOND</strong> paper. If you were born in July through December, please read the <strong>FIRST</strong> paper.</p>'
 
 - week : 9
   date : 2015-10-22
   info : 'Ambient Visualization and Urban Displays'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut on "<strong><a href="http://dx.doi.org/10.1016/j.ijhcs.2015.02.005">Public Visualization Displays of Citizen Data: Design, Impact, and Implications</a></strong>" by Nina Valkanova, Sergi Jorda, and Andrew Vande Moere published in the <em>International Journal of Human-Computer Studies</em>, Volume 81, September 2015, pages 4&ndash;16.</p><p><strong>Assigned Reading:</strong> If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Thanawut on "<strong><a href="http://dx.doi.org/10.1016/j.ijhcs.2015.02.005">Public Visualization Displays of Citizen Data: Design, Impact, and Implications</a></strong>" by Nina Valkanova, Sergi Jorda, and Andrew Vande Moere published in the <em>International Journal of Human-Computer Studies</em>, Volume 81, September 2015, pages 4&ndash;16.</p><p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
     - title   : 'The DeepTree Exhibit: Visualizing the Tree of Life to Facilitate Informal Learning'
       authors : 'Block, Florian, Michael Horn, Brenda Caldwell Phillips, Judy Diamond, Margaret Evans, and Chia Shen'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2789&ndash;2798'
       doi     : 'http://dx.doi.org/10.1109/TVCG.2012.244'
+
     - title   : 'Living Liquid: Design and Evaluation of an Exploratory Visualization Tool for Museum Visitors'
       authors : 'Ma, Joyce, Isaac Liao, Kwan-Liu Ma, and Jennifer Frazier'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2799&ndash;2808'
