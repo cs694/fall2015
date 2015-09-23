@@ -1,7 +1,23 @@
+  #   - title   : 'ISOTYPE Visualization: Working Memory, Performance, and Engagement with Pictographs'
+  #     authors : 'Haroz, Steve, Robert Kosara, and Steven L. Franconeri'
+  #     citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2015, Pages 1191&ndash;1200'
+  #     doi     : 'http://dx.doi.org/10.1145/2702123.2702275'
+
+  #   - title   : 'An Evaluation of the Impact of Visual Embellishments in Bar Charts'
+  #     authors : 'Skau, Drew, Lane Harrison, and Robert Kosara'
+  #     citation: 'Eurographics Conference on Visualization (EuroVis), Computer Graphics Forum, Volume 34, Number 3, 2015.'
+  #     doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
+
+  #   - title   : 'Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods'
+  #     authors : 'Cleveland, William S. and Robert McGill'
+  #     citation: 'Journal of the American Statistical Association, Volume 79, Number 387, September 1984, Pages 531&ndash;554'
+  #     doi     : 'http://dx.doi.org/10.1080/01621459.1984.10478080'
+
+
 - week : 1
   date : 2015-08-27
   info : 'Course Introduction'
-  gray : false
+  iffy : true
   flag : false
   todo : 'We will go over the <a href="syllabus.html">syllabus</a>, how to download papers, and go through introductions of everyone in the class. Time permitting, we will also watch some TED videos. There is nothing due this week.'
   read :
@@ -45,7 +61,7 @@
   date : 2015-09-03
   info : 'Reading Academic Research Papers'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290670'
-  gray : false
+  iffy : true
   flag : false
   read :
     - title   : 'How to Read a Paper'
@@ -67,7 +83,7 @@
   date : 2015-09-10
   info : 'Introduction to Data Visualization'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290671'
-  gray : false
+  iffy : true
   flag : false
   read :
     - title   : 'A Tour Through the Visualization Zoo'
@@ -75,13 +91,12 @@
       citation: 'Communications of the ACM, Volume 53, Issue 6, June 2010, Pages 59&ndash;67'
       summary : '#'
       doi     : 'http://dx.doi.org/10.1145/1743546.1743567'
-      week    : '02'
 
 - week : 4
   date : 2015-09-17
   info : 'Preattentive Attributes'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290672'
-  gray : false
+  iffy : true
   flag : false
   todo : 'If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.'
   read :
@@ -104,11 +119,6 @@
   flag : false
   todo : 'If you were born in January through June please read the first paper. If you were born in July through December, please read the second paper.'
   read :
-  #   - title   : 'Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods'
-  #     authors : 'Cleveland, William S. and Robert McGill'
-  #     citation: 'Journal of the American Statistical Association, Volume 79, Number 387, September 1984, Pages 531&ndash;554'
-  #     doi     : 'http://dx.doi.org/10.1080/01621459.1984.10478080'
-
     - title   : 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design'
       authors : 'Heer, Jeffrey, and Michael Bostock'
       citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2010, Pages 203&ndash;212'
@@ -121,20 +131,27 @@
 
 - week : 6
   date : 2015-10-01
-  info : 'Embellishments and Bar Charts <em>(Tentative)</em>'
+  info : 'Eye Tracking Studies'
+  link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290674'
   gray : false
   flag : false
-  iffy : true
-  # read :
-  #   - title   : 'ISOTYPE Visualization: Working Memory, Performance, and Engagement with Pictographs'
-  #     authors : 'Haroz, Steve, Robert Kosara, and Steven L. Franconeri'
-  #     citation: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2015, Pages 1191&ndash;1200'
-  #     doi     : 'http://dx.doi.org/10.1145/2702123.2702275'
+  todo : 'If you were born in January through April, please read the first paper. If you were born in May through August, please read the second paper. If you were born September through December, please read the third paper.'
+  read :
+    - title   : 'Evaluation of Traditional, Orthogonal, and Radial Tree Diagrams by an Eye Tracking Study'
+      authors : 'Burch, Michael, Natalia Konevtsova, Julian Heinrich, Markus Hoferlin, and Daniel Weiskopf'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 17, Issue 12, December 2011, Pages 2440&ndash;2448'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2011.193'
 
-  #   - title   : 'An Evaluation of the Impact of Visual Embellishments in Bar Charts'
-  #     authors : 'Skau, Drew, Lane Harrison, and Robert Kosara'
-  #     citation: 'Eurographics Conference on Visualization (EuroVis), Computer Graphics Forum, Volume 34, Number 3, 2015.'
-  #     doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346320'
+    - title   : 'Does an Eye Tracker Tell the Truth about Visualizations?: Findings while Investigating Visualizations for Decision Making'
+      authors : 'Kim, Sung-Hee, Zhihua Dong, Hanjun Xian, Benjavan Upatising, and Ji Soo Yi'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2421&ndash;2430'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2012.215'
+
+    - title   : 'Comparative Eye Tracking Study on Node-Link Visualizations of Trajectories'
+      authors : 'Netzel, Rudolf, Michel Burch, and Daniel Weiskopf'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2221&ndash;2230'
+      doi     : 'http://dx.doi.org/10.1109/TVCG.2014.2346420'
+      vid     : 'https://vimeo.com/102605490'
 
 
 - week : 7
@@ -146,11 +163,11 @@
 
 - week : 8
   date : 2015-10-15
-  info : 'Cybersecurity'
+  info : 'Cybersecurity Visualization'
   gray : false
   flag : true
-  iffy : true
-  todo : '<p>Attend the <strong>USF Symposium on Cybersecurity</strong> on Wed 10/14 (<a href="http://alumni.usfca.edu/controls/email_marketing/admin/email_marketing_email_viewer.aspx?sid=1307&gid=1&eiid=11815&seiid=7686&usearchive=1&puid=b0635dbe-1be3-4838-8447-48c6ae2a3777">details</a>) and submit a summary of the panel. If you have a class conflict or are otherwise unable to make it, submit a biography for each of the panelists instead.</p><p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on cybersecurity visualization.</p>'
+  iffy : false
+  todo : '<p class="alert alert-info">Students are encouraged to attend the <strong>USF Symposium on Cyber Security</strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm.</p> <p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on cybersecurity visualization.</p>'
 
 - week : 9
   date : 2015-10-22
