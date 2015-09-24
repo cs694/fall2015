@@ -162,7 +162,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290675'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2012.189">A User Study on Curved Edges in Graph Visualization</a></strong>" by published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 18, Issue 12, December 2012, pages 2449&ndash;2456. Students do <em>not</em> need to read this paper before class.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2012.189">A User Study on Curved Edges in Graph Visualization</a></strong>" by Kai Xu, Chris Rooney, Peter Passmore, Dong-Han Ham, and Phong H. Nguyen published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 18, Issue 12, December 2012, pages 2449&ndash;2456. Students do <em>not</em> need to read this paper before class.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
     - title   : 'Divided Edge Bundling for Directional Network Data'
       authors : 'Selassie, David, Brandon Heller and Jeffrey Heer'
