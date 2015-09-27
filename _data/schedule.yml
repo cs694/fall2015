@@ -239,7 +239,7 @@
   info : 'Big Data Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Maynak on big data visualization.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Maynak on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2014.2346249">OnSet: A Visualization Technique for Large-Scale Binary Set Data</a></strong>" by Ramik Sadana, Timothy Major, Alistair Dove and John Stasko published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, volume 20, issue 12, December 2014, pages 1993&ndash;2002. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> Pending</p>'
 
 - week : 14
   date : 2015-11-26
