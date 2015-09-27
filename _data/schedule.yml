@@ -117,7 +117,7 @@
   date : 2015-09-24
   info : 'Perception and Bar Charts'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290673'
-  gray : false
+  iffy : true
   flag : false
   todo : '<p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
