@@ -135,7 +135,7 @@
   date : 2015-10-01
   info : 'Eye Tracking Studies'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290674'
-  gray : false
+  iffy : true
   flag : false
   todo : '<p><strong>Assigned Reading:</strong> If you were born in January through April, please read the <strong>THIRD</strong> paper. If you were born in May through August, please read the <strong>FIRST</strong> paper. If you were born September through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
@@ -168,7 +168,6 @@
       authors : 'Selassie, David, Brandon Heller and Jeffrey Heer'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 17, Issue 12, December 2011, Pages 2354&ndash;2363'
       doi     : 'http://dx.doi.org/10.1109/TVCG.2011.190'
-
     - title   : 'Edge Compression Techniques for Visualization of Dense Directed Graphs'
       authors : 'Dwyer, Tim, Nathalie Henry Riche, Kim Marriott, Christopher Mears'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 19, Issue 12, December 2013, Pages 2596&ndash;2605'
@@ -187,7 +186,6 @@
       citation : 'Proceedings of the Eleventh Workshop on Visualization for Cyber Security (VizSec), 2014, pages 80&ndash;87'
       doi      : 'http://dx.doi.org/10.1145/2671491.2671501'
       vid      : 'https://vimeo.com/112873770'
-
     - title    : 'SEEM: A Scalable Visualization for Comparing Multiple Large Sets of Attributes for Malware Analysis'
       authors  : 'Gove, Robert, Joshua Saxe, Sigfried Gold, Alex Long, and Giacomo Bergamo'
       citation : 'Proceedings of the Eleventh Workshop on Visualization for Cyber Security (VizSec), 2014, pages 72&ndash;79'
@@ -206,7 +204,6 @@
       authors : 'Block, Florian, Michael Horn, Brenda Caldwell Phillips, Judy Diamond, Margaret Evans, and Chia Shen'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2789&ndash;2798'
       doi     : 'http://dx.doi.org/10.1109/TVCG.2012.244'
-
     - title   : 'Living Liquid: Design and Evaluation of an Exploratory Visualization Tool for Museum Visitors'
       authors : 'Ma, Joyce, Isaac Liao, Kwan-Liu Ma, and Jennifer Frazier'
       citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 18, Issue 12, December 2012, Pages 2799&ndash;2808'
@@ -225,27 +222,34 @@
   info : 'Personal Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with two 20 minute presentation by Simon and Amulya on visualization of personal data and its affect in daily life.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with two 20 minute presentation by Simon on visualization of personal data and its affect in daily life.</p>'
 
 - week : 12
   date : 2015-11-12
-  info : 'Colors and Visualization'
+  info : 'Color and Visualization'
+  link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290683'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan on "<a href="http://doi.ieeecomputersociety.org/10.1109/TVCG.2014.2346277"><strong>Tree Colors: Color Schemes for Tree-Structured Data</strong></a>" by Martijn Tennekes and Edwin de Jonge published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 20, Issue 12, December 2014, pages 2072&ndash;2081. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan on "<a href="http://doi.ieeecomputersociety.org/10.1109/TVCG.2014.2346277"><strong>Tree Colors: Color Schemes for Tree-Structured Data</strong></a>" by Martijn Tennekes and Edwin de Jonge published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 20, Issue 12, December 2014, pages 2072&ndash;2081. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST TWO</strong> papers (both are short). If you were born in July through December, please read the <strong>THIRD</strong> paper only.</p>'
   read :
-    # - title   : 'Rainbow Color Map (Still) Considered Harmful'
-    #   authors : 'Borland, David and Russell M. Taylor II'
-    #   citation: 'IEEE Computer Graphics and Applications, Volume 27, Issue 2, April 2007, Pages 14&ndash;17'
-    #   doi     : 'http://doi.ieeecomputersociety.org/10.1109/MCG.2007.46'
-    # - title   : 'A Coloring Solution to the Edge Crossing Problem'
-    #   authors : 'Jianu, Radu, Adrian Rusu, Andrew J. Fabian, and David H. Laidlaw'
-    #   citation: 'IEEE Computer Graphics and Applications, Volume 27, Issue 2, April 2007, Pages 14&ndash;17'
-    #   doi     : 'http://doi.ieeecomputersociety.org/10.1109/IV.2009.66'
+    - title   : 'Rainbow Color Map (Still) Considered Harmful'
+      authors : 'Borland, David and Russell M. Taylor II'
+      citation: 'IEEE Computer Graphics and Applications, Volume 27, Issue 2, April 2007, Pages 14&ndash;17'
+      doi     : 'http://doi.ieeecomputersociety.org/10.1109/MCG.2007.46'
+    - title   : 'Colormaps that Improve Perception of High-Resolution Ocean Data'
+      authors : 'Samsel, Francesca, Mark Petersen, Terece Geld, Greg Abram, Joanne Wendelberger, and James Ahrens'
+      citation: 'Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA), 2015, Pages 703&ndash;710'
+      doi     : 'http://dx.doi.org/10.1145/2702613.2702975'
+      vid     : 'https://www.youtube.com/watch?v=pMcj6TVeNDM'
+    - title   : 'ColorBrewer.org: An Online Tool for Selecting Colour Schemes for Maps'
+      authors : 'Harrower, Mark and Cynthia A. Brewer'
+      citation: 'The Cartographic Journal, Volume 40, Number 1, June 2003, Pages 27&ndash;37'
+      doi     : 'http://dx.doi.org/10.1179/000870403235002042'
 
 - week : 13
   date : 2015-11-19
   info : 'Animation and Interaction'
+  link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290682'
   gray : false
   flag : false
   todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Maynak on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2014.2346249">OnSet: A Visualization Technique for Large-Scale Binary Set Data</a></strong>" by Ramik Sadana, Timothy Major, Alistair Dove and John Stasko published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, volume 20, issue 12, December 2014, pages 1993&ndash;2002.</p><p class="text-success"><i class="fa fa-television"></i> We will also have a 20 minute presentation by Amulya on "<strong><a href="http://doi.ieeecomputersociety.org/10.1109/TVCG.2008.125">Effectiveness of Animation in Trend Visualization</a></strong>" by George Robertson, Roland Fernandez, Danyel Fisher, Bongshin Lee, and John Stasko published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 14, Issue 6, December 2018, pages 1325&ndash;1332.</p><p  class="text-success">Students do <em>not</em> need to read the presentation papers above before class.</p><p><strong>Assigned Reading:</strong> Everyone should read the following paper:</p>'
@@ -265,7 +269,7 @@
 
 - week : 15
   date : 2015-12-03
-  info : '&nbsp;'
+  info : 'TBA'
   gray : false
   flag : false
   todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Akhila on visualization and advertising.</p>'
