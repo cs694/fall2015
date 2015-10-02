@@ -180,7 +180,7 @@
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2294019'
   flag : true
   iffy : false
-  todo : '<p class="alert alert-info">Students are encouraged to attend the <strong>USF Symposium on Cyber Security</strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm.</p> <p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on "<a href="https://doi.org/10.1057/ivs.2010.12">Visualizing Keyboard Pattern Passwords</a>" by Dino Schweitzer, Jeff Boleng, Colin Hughes, and Louis Murphy published in <em>Information Visualization</em>, volume 10, issue 2, 2011, pages 127&ndash;133. Students do <em>not</em> need to read this paper before class.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>SECOND</strong> paper. If you were born in July through December, please read the <strong>FIRST</strong> paper.</p>'
+  todo : '<p class="alert alert-info">Students are encouraged to attend the <strong>USF Symposium on Cyber Security</strong> on Wednesday, October 14 in Fromm Hall, Xavier Room. Registration begins at 5:00pm, and the panels are followed by a reception at 7:30pm.</p> <p class="text-success"><i class="fa fa-television"></i> We will begin class with a 20 minute presentation by Jake on "<a href="https://doi.org/10.1057/ivs.2010.12"><strong>Visualizing Keyboard Pattern Passwords</strong></a>" by Dino Schweitzer, Jeff Boleng, Colin Hughes, and Louis Murphy published in <em>Information Visualization</em>, volume 10, issue 2, 2011, pages 127&ndash;133. Students do <em>not</em> need to read this paper before class.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>SECOND</strong> paper. If you were born in July through December, please read the <strong>FIRST</strong> paper.</p>'
   read :
     - title    : 'IMap: Visualizing Network Activity over Internet Maps'
       authors  : 'Fowler, J. Joseph, Thienne Johnson, Paolo Simonetto, Michael Schneider, Carlos Acedo, Stephen Kobourov, and Loukas Lazos'
@@ -229,17 +229,32 @@
 
 - week : 12
   date : 2015-11-12
-  info : '&nbsp;'
+  info : 'Colors and Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan on color and map visualization.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Dejan on "<a href="http://doi.ieeecomputersociety.org/10.1109/TVCG.2014.2346277"><strong>Tree Colors: Color Schemes for Tree-Structured Data</strong></a>" by Martijn Tennekes and Edwin de Jonge published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 20, Issue 12, December 2014, pages 2072&ndash;2081. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
+  read :
+    # - title   : 'Rainbow Color Map (Still) Considered Harmful'
+    #   authors : 'Borland, David and Russell M. Taylor II'
+    #   citation: 'IEEE Computer Graphics and Applications, Volume 27, Issue 2, April 2007, Pages 14&ndash;17'
+    #   doi     : 'http://doi.ieeecomputersociety.org/10.1109/MCG.2007.46'
+    # - title   : 'A Coloring Solution to the Edge Crossing Problem'
+    #   authors : 'Jianu, Radu, Adrian Rusu, Andrew J. Fabian, and David H. Laidlaw'
+    #   citation: 'IEEE Computer Graphics and Applications, Volume 27, Issue 2, April 2007, Pages 14&ndash;17'
+    #   doi     : 'http://doi.ieeecomputersociety.org/10.1109/IV.2009.66'
 
 - week : 13
   date : 2015-11-19
-  info : 'Big Data Visualization'
+  info : 'Animation and Interaction'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Maynak on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2014.2346249">OnSet: A Visualization Technique for Large-Scale Binary Set Data</a></strong>" by Ramik Sadana, Timothy Major, Alistair Dove and John Stasko published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, volume 20, issue 12, December 2014, pages 1993&ndash;2002. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> Pending</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Maynak on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2014.2346249">OnSet: A Visualization Technique for Large-Scale Binary Set Data</a></strong>" by Ramik Sadana, Timothy Major, Alistair Dove and John Stasko published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, volume 20, issue 12, December 2014, pages 1993&ndash;2002.</p><p class="text-success"><i class="fa fa-television"></i> We will also have a 20 minute presentation by Amulya on "<strong><a href="http://doi.ieeecomputersociety.org/10.1109/TVCG.2008.125">Effectiveness of Animation in Trend Visualization</a></strong>" by George Robertson, Roland Fernandez, Danyel Fisher, Bongshin Lee, and John Stasko published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 14, Issue 6, December 2018, pages 1325&ndash;1332.</p><p  class="text-success">Students do <em>not</em> need to read the presentation papers above before class.</p><p><strong>Assigned Reading:</strong> Everyone should read the following paper:</p>'
+  read :
+    - title   : 'The Not-so-Staggering Effect of Staggered Animated Transitions on Visual Tracking'
+      authors : 'Chevalier, Fanny, Pierre Dragicevic and Steven Franconeri'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 20, Issue 12, December 2014, Pages 2241&ndash;2250'
+      doi     : 'http://doi.ieeecomputersociety.org/10.1109/TVCG.2014.2346424'
+      vid     : 'https://vimeo.com/102606411'
 
 - week : 14
   date : 2015-11-26
