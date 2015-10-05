@@ -222,7 +222,7 @@
   info : 'Personal Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with two 20 minute presentation by Simon on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702293">VeilMe: An Interactive Visualization Tool for Privacy Configuration of Using Personality Traits</a></strong>" by Yang Wang, Liang Gou, Anbang Xu, Michelle X. Zhou, Huahai Yang, and Hernan Badenes in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 817&ndash;826. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> Pending.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with two 20 minute presentation by Simon on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702293">VeilMe: An Interactive Visualization Tool for Privacy Configuration of Using Personality Traits</a></strong>" by Yang Wang, Liang Gou, Anbang Xu, Michelle X. Zhou, Huahai Yang, and Hernan Badenes in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 817&ndash;826. <a href="https://www.youtube.com/watch?v=FzuKiP4B1Tg"><i class="fa fa-fw fa-film"></i></a> Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> Pending.</p>'
 
 - week : 12
   date : 2015-11-12
