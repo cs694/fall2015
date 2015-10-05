@@ -212,10 +212,10 @@
 
 - week : 10
   date : 2015-10-29
-  info : 'Career Services Presentation'
+  info : 'Guest Speaker: Chris Boyce (<a href="https://www.mocana.com/">Mocana</a>)'
   gray : false
   flag : true
-  todo : 'Career Services will be giving a special presentation during class. Attendance is mandatory. Details will be posted later.'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> USF alum Chris Boyce, now at <a href="https://www.mocana.com/">Mocana</a>, will be giving a guest lecture. All CS students are welcome to attend&mdash;<strong>attendance is mandatory for enrolled students</strong>.</p><p class="text-muted">There will be no readings due this week.</p>'
 
 - week : 11
   date : 2015-11-05
