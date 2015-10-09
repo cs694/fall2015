@@ -160,7 +160,7 @@
   date : 2015-10-08
   info : 'Graph Visualization'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290675'
-  gray : false
+  iffy : true
   flag : false
   todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Kaynat on "<strong><a href="http://dx.doi.org/10.1109/TVCG.2012.189">A User Study on Curved Edges in Graph Visualization</a></strong>" by Kai Xu, Chris Rooney, Peter Passmore, Dong-Han Ham, and Phong H. Nguyen published in <em>IEEE Transactions on Visualization and Computer Graphics</em>, Volume 18, Issue 12, December 2012, pages 2449&ndash;2456. Students do <em>not</em> need to read this paper before class.</p> <p><strong>Assigned Reading:</strong> If you were born in January through June please read the <strong>FIRST</strong> paper. If you were born in July through December, please read the <strong>SECOND</strong> paper.</p>'
   read :
@@ -222,7 +222,7 @@
   info : 'Personal Visualization'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with two 20 minute presentation by Simon on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702293">VeilMe: An Interactive Visualization Tool for Privacy Configuration of Using Personality Traits</a></strong>" by Yang Wang, Liang Gou, Anbang Xu, Michelle X. Zhou, Huahai Yang, and Hernan Badenes in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 817&ndash;826. <a href="https://www.youtube.com/watch?v=FzuKiP4B1Tg"><i class="fa fa-fw fa-film"></i></a> Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> Pending.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Simon on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702293">VeilMe: An Interactive Visualization Tool for Privacy Configuration of Using Personality Traits</a></strong>" by Yang Wang, Liang Gou, Anbang Xu, Michelle X. Zhou, Huahai Yang, and Hernan Badenes in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 817&ndash;826.&nbsp;<a href="https://www.youtube.com/watch?v=FzuKiP4B1Tg"><i class="fa fa-fw fa-film"></i></a></p> <p class="text-success"><i class="fa fa-television"></i> We will also have a 20 minute presentation by MD Naseem on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702197">TastyBeats: Designing Palatable Representations of Physical Activity</a></strong>" by Rohit Ashok Khot, Jeewon Lee, Deepti Aggarwal, Larissa Hjorth, Florian "Floyd" Mueller in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 2933&ndash;2942. <a href="https://www.youtube.com/watch?v=RRKR0dekPxo"><i class="fa fa-fw fa-film"></i></a></p><p class="text-success">Students do <em>not</em> need to read these papers before class.</p><p><strong>Assigned Reading:</strong> Pending.</p>'
 
 - week : 12
   date : 2015-11-12
