@@ -269,10 +269,16 @@
 
 - week : 15
   date : 2015-12-03
-  info : 'TBA'
+  info : 'Visualization and Advertising'
   gray : false
   flag : false
-  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Akhila on visualization and advertising.</p>'
+  todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Akhila on "<strong><a href="http://dx.doi.org/10.1080/1472586X.2014.862997">A Pragmatic Perspective on Visual Representation and Creative Thinking</a></strong> by Lee Martin and Daniel L. Schwartz in <em>Visual Studies</em>, Volume 29, Issue 1, 2014, pages 80&ndash;93. Students do <em>not</em> need to read this paper before class.</p><p><strong>Assigned Reading:</strong> Everyone should read the following paper:</p>'
+  read :
+    - title   : 'What Makes a Visualization Memorable?'
+      authors : 'Borkin, Michelle A., Azalea A. Vo, Zoya Bylinskii, Phillip Isola, Shashank Sunkavalli, Aude Oliva, and Hanspeter Pfister'
+      citation: 'IEEE Transactions on Visualization and Computer Graphics, Volume 19, Issue 12, December 2013, Pages 2306&ndash;2315'
+      doi     : 'http://doi.ieeecomputersociety.org/10.1109/TVCG.2013.234'
+      vid     : 'https://vimeo.com/74413611'
 
 - week : 16
   date : 2015-12-10
