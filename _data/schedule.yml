@@ -221,7 +221,7 @@
   date : 2015-11-05
   info : 'Human Computer Interaction'
   link : 'https://usfca.instructure.com/courses/1555423/quizzes/2290679'
-  gray : false
+  iffy : true
   flag : false
   todo : '<p class="text-success"><i class="fa fa-television"></i> We will begin with a 20 minute presentation by Simon on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702293">VeilMe: An Interactive Visualization Tool for Privacy Configuration of Using Personality Traits</a></strong>" by Yang Wang, Liang Gou, Anbang Xu, Michelle X. Zhou, Huahai Yang, and Hernan Badenes in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 817&ndash;826.&nbsp;<a href="https://www.youtube.com/watch?v=FzuKiP4B1Tg"><i class="fa fa-fw fa-film"></i></a></p> <p class="text-success"><i class="fa fa-television"></i> We will also have a 20 minute presentation by MD Naseem on "<strong><a href="http://dx.doi.org/10.1145/2702123.2702197">TastyBeats: Designing Palatable Representations of Physical Activity</a></strong>" by Rohit Ashok Khot, Jeewon Lee, Deepti Aggarwal, Larissa Hjorth, Florian "Floyd" Mueller in the <em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em>, 2015, pages 2933&ndash;2942. <a href="https://www.youtube.com/watch?v=RRKR0dekPxo"><i class="fa fa-fw fa-film"></i></a></p><p class="text-success">Students do <em>not</em> need to read these papers before class.</p><p><strong>Assigned Reading:</strong> Everyone should read the following paper:</p>'
   read :
